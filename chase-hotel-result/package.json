@@ -1,0 +1,21 @@
+{
+    "name": "@orxe-test-automation/chase-hotel-result",
+    "version": "0.1.3-beta.1",
+    "description": "Functional and component tests for citi hotel search app",
+    "main": "lib/index.js",
+    "types": "lib",
+    "scripts": {
+        "clean": "rm -rf lib",
+        "prebuild": "npm run clean",
+        "build": "tsc -p ./tsconfig.functional.json"
+    },
+    "author": "Shreea Kapoor",
+    "license": "ISC",
+    "devDependencies": {
+        "@orxe-test-automation/e2e": "^0.4.1",
+        "@orxe-test-automation/mobile-hotel-result": "^0.1.2",
+        "inversify": "^5.0.1",
+        "moment": "^2.29.1",
+        "reflect-metadata": "^0.1.13"
+    }
+}

@@ -1,0 +1,10 @@
+node_modules/
+logs/
+lib/
+package-lock.json
+.vscode/
+allure-report
+allure-results
+e2e/allure-results
+chase-hotel-result/node_modules
+citi-hotel-result/node_modules

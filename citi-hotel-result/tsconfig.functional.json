@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "allowJs": true,
+      "module": "commonjs",
+      "target": "es6",
+      "lib": ["es2017", "es7", "es6", "dom"],
+      "paths": {
+        "*": [
+          "./*"
+        ]
+      },
+      "outDir": "./lib",
+      "types": [
+        "node",
+        "@wdio/sync",
+        "@wdio/mocha-framework",
+        "reflect-metadata"
+      ],
+      "noImplicitAny": false, 
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "declaration": true,
+      "declarationMap": true,
+      "sourceMap": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "resolveJsonModule": true
+    },
+    "include": [
+      "**/*.spec.ts",
+      "**/*.ts"
+    ],
+    "exclude": [
+      "node_modules",
+      "dist"
+    ]
+
+}

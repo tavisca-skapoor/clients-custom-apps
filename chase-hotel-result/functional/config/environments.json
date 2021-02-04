@@ -1,0 +1,28 @@
+{
+    "environment": {
+        "type": "qa",
+        "ui": {
+            "baseUrl": {
+                "local": "http://localhost:3001",
+                "qa": "https://common-microapp.qa.cnxloyalty.com",
+                "stage": "https://common-microapp.stage.cnxloyalty.com",
+                "prod": "https://common-microapp.cnxloyalty.com"
+            },
+            "subUrl": {
+                "local": "",
+                "qa": "/hotel/mobile-hotel-result",
+                "stage": "/hotel/mobile-hotel-result",
+                "prod": "/hotel/mobile-hotel-result"
+            }
+        },
+        "bff": {
+            "baseUrl": {
+                "local": "https://hotel-orxe-bff.qa.cnxloyalty.com",
+                "qa": "https://hotel-orxe-bff.qa.cnxloyalty.com",
+                "stage": "https://hotel-orxe-bff.stage.cnxloyalty.com",
+                "prod": "https://hotel-orxe-bff.cnxloyalty.com"
+            }
+        }
+    }
+
+}
